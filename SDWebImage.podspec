@@ -22,6 +22,7 @@ Pod::Spec.new do |s|
                   'and performances!'
 
   s.requires_arc = true
+  s.static_framework = false
   s.framework = 'ImageIO'
   
   s.default_subspec = 'Core'
